@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0px;margin:0px;}
+body{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#box_header{
+	width:100%; height:30px; 
+	margin:0 auto; position:relative; 
+	z-index:205; border:0px #000 dashed;
+	box-shadow: 0 -10px 10px rgba(0,0,0,0.2) inset, 0 0 2px rgba(0,0,0,0.8);
+	background: #505051;
+}
+	#box_header_a{ width:1000px; margin:0 auto; position:relative; z-index:205; }
+	#box_header_b{ position:absolute; top:32px; left:-135px; width:128px; height:600px;border:0px #000 dashed; }
+	#box_header_c{ position:absolute; top:32px; right:-135px; width:128px; height:600px;border:0px #000 dashed; }
+
+.breadcrumb {
+padding: 6px 0px 15px 0px;
+display: block;
+background: none;
+width: 1000px;
+margin: 0 auto;
+}
+.breadcrumb ul {
+margin: 0px;
+padding: 0px;
+margin-left: 10px;
+margin-right: 20px;
+}
+.breadcrumb ul li:first-child {
+background: url(/catalog/view/theme/bumres_2013/image/optional/home-breadcrumb.png) center left no-repeat;
+padding-left: 23px;
+}
+.breadcrumb ul li {
+font-family: Arial,Helvetica,sans-serif;
+float: left;
+background: url(/catalog/view/theme/bumres_2013/image/optional/arrow-breadcrumb.png) center left no-repeat;
+font-size: 12px;
+padding-left: 13px;
+color: #9c9c9c;
+line-height: 14px;
+padding-right: 13px;
+list-style: none;
+font-weight: bold;
+}
+.breadcrumb ul li:last-child {
+float: none;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+.breadcrumb ul li a {
+font-size: 12px;
+line-height: 20px;
+display: block;
+color: #3693be;
+}
+
+.section-block {
+width: 100%;
+margin: 0 auto;
+background: #FFF;
+padding-top: 10px;
+position: relative;
+}
+.column-center {
+width: 1000px;
+margin: 0 auto;
+background: #FFF;
+padding-top: 10px;
+position: relative;
+}
+
+.column-left {
+width: 670px;
+margin-left: 10px;
+}
+.column-right {
+width: 300px;
+margin-left: 10px;
+}
+.silder-content-tab {
+width: 783px;
+position: relative;
+}
+#logo{
+	float:left;
+}
+.silder-content-tab ul.content-tab {
+margin: 0px;
+padding: 0px;
+margin-top: 6px;
+margin-left: 5px;
+float: left;
+margin-bottom: 15px;
+}
+.silder-content-tab ul.content-tab li {
+float: left;
+list-style: none;
+font-size: 14px;
+margin-right: 2px;
+position: relative;
+height: 80px;
+}
+ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+li {
+line-height: 20px;
+display: list-item;
+text-align: -webkit-match-parent;
+}
+.clearfix{
+	clear:both;
+}
+
+
+.restaurant-block{
+width: 203px;
+background-color: #FFF;
+padding: 6px;
+border: 1px solid #ddd;
+float: left;
+margin: 14px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-khtml-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 0px 0px 5px #dbdbdb;
+-moz-box-shadow: 0px 0px 5px #dbdbdb;
+box-shadow: 0px 0px 5px #dbdbdb;
+-webkit-transition: opacity .25s;
+-moz-transition: opacity .25s;
+-o-transition: opacity .25s;
+transition: opacity .25s;
+
+margin-bottom: 8px;
+}
+.restaurant-block h3.rest-th-name, .restaurant-block span.rest-en-name {
+margin: 0px;
+padding: 0px;
+line-height: 20px !important;
+}
+.restaurant-block h3 {
+font-size: 20px !important;
+}
+.column-center {
+clear: both;
+width: 100%;
+padding: 20px 0px 20px 20px;
+background: #f6f6f6;
+border: 1px solid #e1e1e1;
+top: -1px;
+height:500px;
+}
+.restaurant-detail-block {
+width: 1000px;
+margin: 0 auto;
+background: #FFF;
+padding-top: 10px;
+}
+.restaurant-detail-block .column-left {
+width: 670px;
+margin-left: 10px;
+float: left;border: 1px solid #e1e1e1;
+}
+.restaurant-detail-block .column-right {
+width: 300px;
+margin-left: 10px;
+float: left;border: 1px solid #e1e1e1;
+}
+
+.restaurant-detail-block .people-review-block {
+clear: both;
+float: left;
+margin: 10px 0px;
+font-family: Arial,Helvetica,sans-serif;
+}
+.restaurant-detail-block .people-review-block .avatar-left {
+width: 70px;
+float: left;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.restaurant-detail-block .people-review-block .review-right {
+font-family: Arial,Helvetica,sans-serif;
+float: left;
+position: relative;
+width: 550px;
+min-height: 200px;
+border: 1px solid #f2f2f2;
+-webkit-box-shadow: 0px 0px 5px rgb(233, 231, 231);
+-moz-box-shadow: 0px 0px 5px rgb(233, 231, 231);
+box-shadow: 0px 0px 5px rgb(233, 231, 231);
+margin-left: 7px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding: 15px;
+}
